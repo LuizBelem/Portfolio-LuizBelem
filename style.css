@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'Space Mono';
+    color: white;
+    background-color: black;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lado-direito img {
+    width: 150px;
+    margin-right: 190px;
+}
+
+.lado-esquerdo a {
+    text-decoration: none;
+    padding: 15px;
+    transition: color 0.3s ease;
+}
+
+.lado-esquerdo a:hover {
+    text-decoration: none;
+    padding: 15px;
+    color: #007CFF;
+}
+
+/* Conteudo Principal */
+
+/* Imagem Incial Com Minhas Infos */
+
+.eu-topo {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eu-topo img {
+    max-width: 1000px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me img {
+    max-width: 1000px;
+}
+
+.services {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services img {
+    max-width: 1000px;
+}
+
+.painel {
+    padding: 0%;
+}
+.painel img {
+    width: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* footer */
+
+.direitos {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.direitos h4 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
